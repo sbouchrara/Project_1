@@ -1,0 +1,7 @@
+r=lambda x, d : divmod(x,d)
+for x in range(2000,3201,1):
+    r1 = r(x,7)
+    if r1[1]==0:
+        r2=r(x,5)
+        if r2[1]!=0:
+            print(x)
