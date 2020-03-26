@@ -1,3 +1,4 @@
+import math
 r=lambda x, d : divmod(x,d)
 for x in range(2000,3201,1):
     r1 = r(x,7)
