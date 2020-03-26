@@ -1,0 +1,8 @@
+import math
+n = input('Input different values separated by commas : ')
+d=list(n.split(","))
+c=50
+h=30
+fnct = lambda q : round(math.sqrt((2*c*q)/h))
+for i in range(len(d)):
+    print(fnct(int(d[i])))
