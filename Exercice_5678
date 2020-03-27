@@ -2,4 +2,10 @@ ch='kitten'
 fnct = lambda ch, i : ch[:i]+ch[i+1:]
 for x in range(len(ch)):
     print(x,fnct(ch, x))
-    
+#QUESTION_7
+import numpy as np
+tab= np.arange(6).reshape(3, 2)
+print("Original array elements:")
+print(tab)
+print("Array to list:")
+print(tab.tolist())
