@@ -1,0 +1,5 @@
+ch='kitten'
+fnct = lambda ch, i : ch[:i]+ch[i+1:]
+for x in range(len(ch)):
+    print(x,fnct(ch, x))
+    
