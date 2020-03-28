@@ -1,7 +1,12 @@
+#QUESTION_5
 ch='kitten'
 fnct = lambda ch, i : ch[:i]+ch[i+1:]
 for x in range(len(ch)):
     print(x,fnct(ch, x))
+#
+#QUESTION_6
+#
+#
 #QUESTION_7
 import numpy as np
 tab= np.arange(6).reshape(3, 2)
@@ -9,3 +14,11 @@ print("Original array elements:")
 print(tab)
 print("Array to list:")
 print(tab.tolist())
+#
+#QUESTION_8
+import numpy as np
+A1=[0,1,2]
+A2=[2,1,0]
+D=np.array([A1,A2])
+covMatrix = np.cov(D)
+print(covMatrix)
